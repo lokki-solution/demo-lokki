@@ -163,7 +163,7 @@ class App extends React.Component<any, any> {
 
   public walletConnectInit = async () => {
     // bridge url
-    const bridge = "https://bridge.walletconnect.org";
+    const bridge = "http://107.161.26.3";
 
     // create new connector
     const connector = new WalletConnect({bridge, qrcodeModal: QRCodeModal });
